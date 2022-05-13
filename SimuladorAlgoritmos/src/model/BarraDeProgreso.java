@@ -21,6 +21,7 @@ public class BarraDeProgreso {
         bar.setValue(0);
         bar.setBounds(0,0,420,50);
         bar.setStringPainted(true);
+        this.crecerContador();
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 420);
@@ -28,4 +29,9 @@ public class BarraDeProgreso {
         frame.setVisible(true);
     }
     
+    
+    
+    public void crecerContador(){
+       bar.setValue(10);
+    }
 }

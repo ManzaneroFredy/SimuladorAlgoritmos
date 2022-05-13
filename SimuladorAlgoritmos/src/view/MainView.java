@@ -30,7 +30,6 @@ public class MainView extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        SRTFBtn = new javax.swing.JButton();
         RRBtn = new javax.swing.JButton();
         NextBtn = new javax.swing.JButton();
 
@@ -47,23 +46,6 @@ public class MainView extends javax.swing.JFrame {
         jPanel2Layout.columnWeights = new double[] {0.0};
         jPanel2Layout.rowWeights = new double[] {0.0};
         jPanel2.setLayout(jPanel2Layout);
-
-        SRTFBtn.setBackground(new java.awt.Color(106, 141, 146));
-        SRTFBtn.setFont(new java.awt.Font("Segoe UI", 0, 32)); // NOI18N
-        SRTFBtn.setForeground(new java.awt.Color(255, 255, 255));
-        SRTFBtn.setText("Short Remaining Time First");
-        SRTFBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SRTFBtnActionPerformed(evt);
-            }
-        });
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.ipady = 15;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.BASELINE;
-        jPanel2.add(SRTFBtn, gridBagConstraints);
 
         RRBtn.setBackground(new java.awt.Color(106, 141, 146));
         RRBtn.setFont(new java.awt.Font("Segoe UI", 0, 32)); // NOI18N
@@ -127,10 +109,6 @@ public class MainView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void SRTFBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SRTFBtnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SRTFBtnActionPerformed
-
     private void NextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextBtnActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_NextBtnActionPerformed
@@ -173,7 +151,6 @@ public class MainView extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton NextBtn;
     private javax.swing.JButton RRBtn;
-    private javax.swing.JButton SRTFBtn;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
